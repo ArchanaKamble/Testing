@@ -16,6 +16,7 @@ public class PrintPdf {
 			document.close();
 			writer.close();
 		} catch (FileNotFoundException e) {
+			System.out.println(e+"Exception");
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (DocumentException e) {
